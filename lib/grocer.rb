@@ -6,7 +6,7 @@ def consolidate_cart(cart)
   new_cart = []
   cart.each{|hash|
     if hash[:count]
-      hash[:count]+=1
+      hash[:count] += 1
     else
       hash[:count] = 1
       new_cart << hash
@@ -44,5 +44,4 @@ def consolidate_cart(cart)
   end
   new_cart
 end
-
 =end
